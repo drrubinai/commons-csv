@@ -176,7 +176,7 @@ CSV files of various types.
         <artifactId>maven-surefire-plugin</artifactId>
         <configuration>
           <excludes>
-            <exclude>**/csv/*.java</exclude>
+            <exclude>**/perf/*Test.java</exclude>
           </excludes>
         </configuration>
       </plugin>
